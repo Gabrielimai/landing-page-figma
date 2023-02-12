@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(201,160,220);
+background: linear-gradient(0deg, rgba(201,160,220,1) 20%, rgba(168,9,242,1) 100%);
+    background-repeat: no-repeat;
+}
+
+.container {
+  width: 100vw;
+  height: 111px;
+
+  display: flex;
+  justify-content: space-around;
+  padding-top: 37px;
+  padding-bottom: 34px;
+}
+
+.logo {
+    font-size:30px;
+  display: flex;
+  color: beige;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  margin-left: 82px;
+  border: none;
+  border-radius: 18px;
+}
+
+.get-it {
+  width: 71px;
+  height: 36px;
+  background-color: #D80CA1;
+  color:beige ;
+  font-size: 14px;
+  box-shadow: 0px 6px 15px 0px #000000;
+  
+}
+
+.get-it:hover{
+    background-color:#ff02bb;
+    cursor: pointer;
+    box-shadow: 0px 2px 0px 0px #000000;
+}
+
+.sign-up {
+  width: 116px;
+  height: 36px;
+  background-color:#5298e8;
+  color:beige ;
+  font-size: 14px; 
+  box-shadow: 0px 6px 15px 0px #000000;
+}
+
+.sign-up:hover{
+    background-color:#63a3eb;
+    cursor: pointer;
+    box-shadow: 0px 2px 0px 0px #000000;
+}
+
+.container-main{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    border-radius: 20px;
+    margin: 50px 45px 50px 45px;
+    background: rgb(168,9,242);
+background: linear-gradient(0deg, rgba(168,9,242,1) 20%, rgba(201,160,220,1) 100%);
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-bottom: 25px;
+    font-size: 64px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+span{
+    font-size: 15px;
+    width: 328px;
+    color: beige;
+    margin-bottom: 25px;
+    word-wrap:break-word;
+}
+
+.start{
+    width: 164px;
+    height: 38px;
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: #D80CA1;
+    box-shadow: 0px 6px 15px 0px #000000;
+    color: beige;
+}
+
+.start:hover{
+    background-color: #ff02bb;
+    cursor: pointer;
+    box-shadow: 0px 2px 0px 0px #000000;
+}
